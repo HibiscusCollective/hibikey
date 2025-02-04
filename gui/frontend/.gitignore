@@ -1,0 +1,18 @@
+### Ignore everything but allow folders
+*
+!*/
+
+### Allow git configuration
+!**/.gitignore
+
+### Allow frontend files
+!package.json
+
+!**/*.html
+!**/*.css
+!**/*.js
+
+### Allow public resources
+!public/*.ttf
+!public/*.svg
+!public/*.png

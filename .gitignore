@@ -1,0 +1,29 @@
+### Exclude all by default
+*
+
+### Allow subprojects
+!cli
+!gui
+!lib
+
+### Allow go workspace and modules
+!go.work
+!go.work.sum
+!**/go.mod 
+!**/go.sum
+
+### Allow git configuration
+!**/.gitignore
+
+### Allow mise configuration
+!mise.toml
+
+### Allow documentation
+!README.md
+
+### ALlow licenses
+!LICENSE
+!ThirdPartyLicenses.md
+
+!licenses
+!licenses/*.txt

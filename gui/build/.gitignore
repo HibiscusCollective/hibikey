@@ -1,0 +1,16 @@
+## Ignore all by default
+*
+
+## Platforms
+!windows
+!darwin
+!linux
+
+## Git config
+!.gitignore
+
+## Config
+!config.yml
+
+## Resources
+!*.png

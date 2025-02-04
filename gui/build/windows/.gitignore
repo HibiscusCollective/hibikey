@@ -1,0 +1,10 @@
+## Ignore all by default
+*
+
+## Git config
+!.gitignore
+
+## NSIS config
+!*.ico
+!*.json
+!*.manifest

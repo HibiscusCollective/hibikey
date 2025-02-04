@@ -1,0 +1,21 @@
+### Ignore everything but allow folders
+*
+!*/
+
+### Allow git configuration
+!**/.gitignore
+
+### Allow go modules & code
+!**/*.go
+!go.mod
+!go.sum
+
+### Allow documentation
+!README.md
+
+### Allow licenses
+LICENSE.md
+!Inter Font License.txt
+
+
+

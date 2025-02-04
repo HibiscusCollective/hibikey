@@ -1,0 +1,11 @@
+### Exclude all by default
+*
+!*/
+
+## Git config
+!.gitignore
+
+## Go files
+!go.mod
+!go.sum
+!**/*.go
