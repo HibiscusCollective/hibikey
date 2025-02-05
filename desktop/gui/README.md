@@ -1,6 +1,7 @@
-# Welcome to Your New Wails3 Project!
+# Welcome to Your New Wails3 Project
 
-Congratulations on generating your Wails3 application! This README will guide you through the next steps to get your project up and running.
+Congratulations on generating your Wails3 application!
+This README will guide you through the next steps to get your project up and running.
 
 ## Getting Started
 
@@ -8,7 +9,7 @@ Congratulations on generating your Wails3 application! This README will guide yo
 
 2. To run your application in development mode, use the following command:
 
-   ```
+   ```sh
    wails3 dev
    ```
 
@@ -16,7 +17,7 @@ Congratulations on generating your Wails3 application! This README will guide yo
 
 3. To build your application for production, use:
 
-   ```
+   ```sh
    wails3 build
    ```
 
@@ -26,11 +27,12 @@ Congratulations on generating your Wails3 application! This README will guide yo
 
 Now that you have your project set up, it's time to explore the features that Wails3 offers:
 
-1. **Check out the examples**: The best way to learn is by example. Visit the `examples` directory in the `v3/examples` directory to see various sample applications.
+1. **Check out the examples**: The best way to learn is by example. Visit the `examples` directory in the `v3/examples`
+directory to see various sample applications.
 
 2. **Run an example**: To run any of the examples, navigate to the example's directory and use:
 
-   ```
+   ```sh
    go run .
    ```
 
@@ -38,7 +40,8 @@ Now that you have your project set up, it's time to explore the features that Wa
 
 3. **Explore the documentation**: Visit the [Wails3 documentation](https://v3alpha.wails.io/) for in-depth guides and API references.
 
-4. **Join the community**: Have questions or want to share your progress? Join the [Wails Discord](https://discord.gg/JDdSxwjhGf) or visit the [Wails discussions on GitHub](https://github.com/wailsapp/wails/discussions).
+4. **Join the community**: Have questions or want to share your progress?
+Join the [Wails Discord](https://discord.gg/JDdSxwjhGf) or visit the [Wails discussions on GitHub](https://github.com/wailsapp/wails/discussions).
 
 ## Project Structure
 
@@ -56,4 +59,5 @@ Take a moment to familiarize yourself with your project structure:
 3. Use `wails3 dev` to see your changes in real-time.
 4. When ready, build your application with `wails3 build`.
 
-Happy coding with Wails3! If you encounter any issues or have questions, don't hesitate to consult the documentation or reach out to the Wails community.
+Happy coding with Wails3! If you encounter any issues or have questions, don't hesitate to consult the documentation or
+reach out to the Wails community.

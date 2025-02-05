@@ -8,14 +8,15 @@
 !desktop
 !licenses
 !android
+!docs
 
-### Allow mise configuration
+### Allow workspace configuration
 !mise.toml
+!.editorconfig
+!.markdownlint.json
 
-### Allow documentation
+### Allow readme and licenses
 !README.md
-
-### ALlow licenses
 !LICENSE
 !ThirdPartyLicenses.md
 

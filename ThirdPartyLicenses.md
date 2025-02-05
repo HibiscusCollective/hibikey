@@ -19,6 +19,12 @@ Copyright (c) 2019-present, VoidZero Inc. and Vite contributors
 
 Copyright (c) 2025 Jeff Dickey
 
+### [markdownlint](licenses/markdownlint.txt)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/DavidAnson/markdownlint/blob/main/LICENSE)
+
+Copyright (c) David Anson
+
 ### Frameworks and libraries
 
 #### [Cobra](licenses/CobraLicense.txt)
@@ -53,4 +59,7 @@ This license is copied below, and is also available with a FAQ at:
 
 ## Reporting licensing issues
 
-Care is taken to ensure that the licenses of third-party software used by this project are consistent and appropriate for the purpose for which it is being used and that this list is kept complete and up to date. That said mistakes can happen. If you come across a problem, please [open an issue](https://github.com/HibiscusCollective/hibikey/issues) and let me know and I will do my best to resolve it promptly.
+Care is taken to ensure that the licenses of third-party software used by this project respected and
+that this list is kept complete and up to date. That said mistakes can happen.
+If you come across a problem, please [open an issue](https://github.com/HibiscusCollective/hibikey/issues) and
+let me know and I will do my best to resolve it promptly.

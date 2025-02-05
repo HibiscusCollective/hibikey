@@ -1,0 +1,9 @@
+### Ignore everything by default but allow folders
+*
+!*/
+
+## Allow git config
+!.gitignore
+
+## Allow markdown
+!**/*.md

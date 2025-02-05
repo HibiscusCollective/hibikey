@@ -2,7 +2,8 @@
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-Libre software solution for simple, secure and private passwordless authentication from your mobile device. Everything is encrypted and stored on your devices. No server is involved and no internet is required.
+Libre software solution for simple, secure and private passwordless authentication from your mobile device.
+Everything is encrypted and stored on your devices. No server is involved and no internet is required.
 
 ## License
 
@@ -25,8 +26,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Third party software
 
-This project wouldn't have been possible without the work of many talented and dedicated craftspeople around the world. Thank you very much to everyone.
+This project wouldn't have been possible without the work of many talented and dedicated craftspeople around the world.
+Thank you very much to everyone.
 
-All the software used in this project is either free software or has a compatible license. Check the [ThirdPartyLicenses.md](ThirdPartyLicenses.md) file for more information.
+All the software used in this project is either free software or has a compatible license.
+Check the [ThirdPartyLicenses.md](ThirdPartyLicenses.md) file for more information.
 
-Due diligence was taken to ensure the compatibility of the licenses and the use of the software is permitted. That said mistakes can happen. If you come across a problem, please [open an issue](https://github.com/HibiscusCollective/hibikey/issues) and let me know and I will do my best to resolve it promptly.
+Due diligence was taken to ensure the compatibility of the licenses and the use of the software is permitted.
+That said mistakes can happen.
+If you come across a problem, please [open an issue](https://github.com/HibiscusCollective/hibikey/issues)
+and let me know and I will do my best to resolve it promptly.
