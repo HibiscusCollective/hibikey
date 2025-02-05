@@ -1,13 +1,19 @@
-## Ignore everything by default
+### Exclude all by default
 *
+
+### Allow subprojects
+!cli
+!gui
+!lib
+
+### Allow go workspace and modules
+!go.work
+!go.work.sum
+!**/go.mod 
+!**/go.sum
 
 ### Allow git configuration
 !**/.gitignore
-
-### Allow subdirectories
-!desktop
-!licenses
-!android
 
 ### Allow mise configuration
 !mise.toml
