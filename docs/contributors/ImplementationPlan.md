@@ -78,9 +78,66 @@
 
 - Set up bluetooth pairing flow
 
-#### As a Linux user, I can log in via Hibikey instead of a password
+#### As a user, I can log in via Hibikey instead of a password
 
+- Finalise the CLI
 - Implement PAM authentication module
+
+#### As a user, I can report issues, ask for help and report security vulnerabilities
+
+- Set up community communications channels.
+- Set up issue templates, discussion templates, etc.
+- Write up a community code of conduct.
+
+#### As a developer, I can contribute to the project
+
+- Write contribution guidelines, contributor agreements, code of conduct,
+and developer docs.
+- Set up automated checks on pull requests, pre-commit hooks, and CI.
+
+### Milestone 2: Beta
+
+#### As an admin, I can view auth logs for auditing
+
+- Set up audit logging subsystem on the desktop side.
+
+#### As a user, I can set up authentication using a simple GUI
+
+- Set up the GUI
+- Set up basic packaging and release mechanism
+
+#### As a user, I can find documentation for the project
+
+- Set up a documentation portal.
+- Document how to install the desktop app and mobile app.
+- Document the main flows and configuration options.
+
+#### As a maintainer, I can distribute the project via reputable channels
+
+- Set up deb/rpm packaging.
+- Set up flatpack packaging.
+- Set up Play store releases.
+- Investigate and set up releases for GrapheneOS and other open OSes.
+
+### Milestone 3: 1.0 Release
+
+#### As a user, I can be confident the project is secure
+
+- Set up security audits.
+- Set up security testing.
+- Set up security monitoring.
+- Write up security policy
+
+#### As a maintainer, I want to get FIDO certified
+
+- Perform the self auditing and self-reporting activities required
+- Investigate how to raise the funds for certification and/or reach out to the FIDO alliance to see what we can do.
+
+#### As a maintainer, I want to get feedback from users and plan for the future
+
+- Set up user feedback and testing.
+- Set up community governance model.
+- Plan the next major release.
 
 ## References
 
