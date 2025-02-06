@@ -2,12 +2,13 @@
 *
 
 ### Allow subprojects
-!cli
-!gui
+!pairing
+!auth
 
-### Allow go workspace and modules
-!**/go.mod 
-!**/go.sum
+### Allow rust workspace
+!**/Cargo.toml
+!**/Cargo.lock
+!**/*.rs
 
 ### Allow git configuration
 !**/.gitignore
@@ -16,11 +17,5 @@
 !mise.toml
 
 ### Allow documentation
-!README.md
-
-### ALlow licenses
-!LICENSE
-!ThirdPartyLicenses.md
-
-!licenses
-!licenses/*.txt
+!**/README.md
+!**/LICENSE

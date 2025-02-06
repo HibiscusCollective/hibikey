@@ -1,6 +1,2 @@
 go 1.24rc2
 
-use (
-	./cli
-	./lib
-)
