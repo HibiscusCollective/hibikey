@@ -11,13 +11,13 @@ use to build secure authenticators using affordable components ex: Arduino Nano.
 
 ## Core Objectives
 
-| Priority | Objective                                  | Success Metric                     |
-|----------|--------------------------------------------|------------------------------------|
-| P0       | Replace password logins on Linux           | PAM module integration             |
-| P0       | Biometric, passworldess authentication     | FIDO certification compliance     |
-| P1       | Secure TCP of local network key exchange   | mTLS secured TCP connection        |
-| P1       | Secure bluetooth key exchange             | Encrypted BLE connection           |
-| P2      | Support deployment on dedicated biometric scanner devices| Lightweight, efficient and flexible FIDO library |
+| Priority | Objective                                  | Success Metric                                |
+|----------|--------------------------------------------|-----------------------------------------------|
+| P0       | Replace password logins on Linux           | PAM module integration                        |
+| P0       | Biometric, passworldess authentication     | FIDO certification compliance                 |
+| P1       | Secure TCP of local network key exchange   | mTLS secured TCP connection                   |
+| P1       | Secure bluetooth key exchange              | Encrypted BLE connection                      |
+| P2       | Support deployment on custom devices       | Lightweight, efficient and flexible libraries |
 
 ## Governance
 
