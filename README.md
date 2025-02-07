@@ -1,6 +1,7 @@
 # HibiKey
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/HibiscusCollective/hibikey/badge)](https://scorecard.dev/viewer/?uri=github.com/HibiscusCollective/hibikey)
 
 Libre software solution for simple, secure and private passwordless authentication from your mobile device.
 Everything is encrypted and stored on your devices. No server is involved and no internet is required.

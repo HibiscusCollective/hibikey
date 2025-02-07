@@ -126,13 +126,21 @@ IoT-focused with security gaps
 * Resource audit: Ongoing
 
 **References:**
-* [1] Tokio Contributors, “GitHub - tokio-rs/tokio: a Runtime for Writing Reliable Asynchronous Applications with Rust,” GitHub, Jan. 08, 2025. https://github.com/tokio-rs/tokio (accessed Feb. 07, 2025).
-* [2] C. Lerche and Tokio Contributors, “Tokio - an Asynchronous Rust Runtime,” tokio.rs, 2025. https://tokio.rs/ (accessed Feb. 07, 2025).
-* [3] Google LLC, “Open Source Insights, tokio” Deps.dev, Jan. 08, 2025. https://deps.dev/cargo/tokio (accessed Feb. 07, 2025).
-* [4] Embassy, “Embassy,” Embassy, Jun. 02, 2024. https://embassy.dev/ (accessed Feb. 07, 2025).
-* [5] Embassy project contributors, “embassy-rs,” GitHub, Feb. 05, 2025. https://github.com/embassy-rs/ (accessed Feb. 07, 2025).
-* [6] Google LLC, “Open Source Insights, embassy-net” Deps.dev, Jan. 05, 2025. https://deps.dev/cargo/embassy-net (accessed Feb. 07, 2025).
-* [7] D. Baghdasaryan, D. Balfanz, B. Hill, J. Hodges, and K. Yang, FIDO UAF Protocol Specification v1.2.
+[1] Tokio Contributors, “GitHub - tokio-rs/tokio: a Runtime for Writing Reliable Asynchronous Applications with Rust,” GitHub, Jan. 08, 2025. https://github.com/tokio-rs/tokio (accessed Feb. 07, 2025).
+
+[2] C. Lerche and Tokio Contributors, “Tokio - an Asynchronous Rust Runtime,” tokio.rs, 2025. https://tokio.rs/ (accessed Feb. 07, 2025).
+
+[3] Google LLC, “Open Source Insights, tokio” Deps.dev, Jan. 08, 2025. https://deps.dev/cargo/tokio (accessed Feb. 07, 2025).
+
+[4] Embassy, “Embassy,” Embassy, Jun. 02, 2024. https://embassy.dev/ (accessed Feb. 07, 2025).
+
+[5] Embassy project contributors, “embassy-rs,” GitHub, Feb. 05, 2025. https://github.com/embassy-rs/ (accessed Feb. 07, 2025).
+
+[6] Google LLC, “Open Source Insights, embassy-net” Deps.dev, Jan. 05, 2025. https://deps.dev/cargo/embassy-net (accessed Feb. 07, 2025).
+
+[7] D. Baghdasaryan, D. Balfanz, B. Hill, J. Hodges, and K. Yang, FIDO UAF Protocol Specification v1.2.
 Beaverton, Oregon, United States of America: FIDO Alliance Inc, 2020. Accessed: Feb. 05, 2025. [Online]. Available: [https://fidoalliance.org/specs/fido-uaf-v1.2-ps-20201020/fido-uaf-protocol-v1.2-ps-20201020.html](https://fidoalliance.org/specs/fido-uaf-v1.2-ps-20201020/fido-uaf-protocol-v1.2-ps-20201020.html)
-* [8] Google LLC, “Open Source Insights, async-std” Deps.dev, Jan. 05, 2025. https://deps.dev/cargo/async-std (accessed Feb. 07, 2025).
-* [9] Google LLC, “Open Source Insights, coap-rs” Deps.dev, Jan. 05, 2025. https://deps.dev/cargo/coap (accessed Feb. 07, 2025).
+
+[8] Google LLC, “Open Source Insights, async-std” Deps.dev, Jan. 05, 2025. https://deps.dev/cargo/async-std (accessed Feb. 07, 2025).
+
+[9] Google LLC, “Open Source Insights, coap-rs” Deps.dev, Jan. 05, 2025. https://deps.dev/cargo/coap (accessed Feb. 07, 2025).

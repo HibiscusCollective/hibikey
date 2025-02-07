@@ -25,6 +25,13 @@ Copyright (c) 2025 Jeff Dickey
 
 Copyright (c) David Anson
 
+### [OpenSSF Scorecard Github Action](licenses/OpenSSFScorecardAction.txt)
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/ossf/scorecard-action/blob/main/LICENSE)
+
+
+Copyright 2020 OpenSSF Scorecard Authors
+
 ### Frameworks and libraries
 
 #### [Cobra](licenses/CobraLicense.txt)
