@@ -28,6 +28,7 @@ This mechanism must be resistant to common attacks
 ## Decision Outcome
 
 Chosen option: "Single use, short-lived 6-character alphanumeric code with QR presentation", because:
+
 1. Provides 36 bits of entropy (exceeds NIST minimum)
 2. QR presentation achieves >90% first-time success
 3. Supports both automated and manual entry
@@ -47,6 +48,7 @@ This is acceptable for the PoC but must be addressed for 1.0.
 ### Confirmation
 
 Implementation verified through:
+
 1. Security Testing
    * Fuzzing of code generation
    * Timing attack resistance
@@ -58,6 +60,7 @@ Implementation verified through:
    * Zero memory leaks found
 
 3. Implementation
+
 ```rust
 /// Generate a secure pairing code with configurable expiry
 /// Uses the high-scoring rand crate for secure RNG
@@ -130,17 +133,20 @@ Hardware-assisted secure pairing
 ## More Information
 
 ### Security Considerations
+
 * Constant-time operations prevent timing attacks
 * Rate limiting: 3 attempts per minute
 * Code expiry: 5 minutes maximum
 * Secure memory wiping after use
 
 ### Quality Metrics
+
 * First-attempt success: >90%
 * Average pairing time: <5s
 * Manual entry time: <15s
 
 ### Review Schedule
+
 * Security audit: Month 1
 * Usability testing: Month 2
 * Performance review: Month 3
@@ -150,8 +156,8 @@ Hardware-assisted secure pairing
 [^1] D. Baghdasaryan, D. Balfanz, B. Hill, J. Hodges, and K. Yang, FIDO UAF Protocol Specification v1.2.
 Beaverton, Oregon, United States of America: FIDO Alliance Inc, 2020. Accessed: Feb. 07, 2025. [Online]. Available: [https://fidoalliance.org/specs/fido-uaf-v1.2-ps-20201020/fido-uaf-protocol-v1.2-ps-20201020.html](https://fidoalliance.org/specs/fido-uaf-v1.2-ps-20201020/fido-uaf-protocol-v1.2-ps-20201020.html)
 
-[^2] P. Grassi et al., Digital Identity guidelines: Authentication and Lifecycle Management. Gaithersburg, MD, United States of America: National Institute of Standards and Technology, 2020. doi: https://doi.org/10.6028/NIST.SP.800-63b.
+[^2] P. Grassi et al., Digital Identity guidelines: Authentication and Lifecycle Management. Gaithersburg, MD, United States of America: National Institute of Standards and Technology, 2020. doi: <https://doi.org/10.6028/NIST.SP.800-63b>.
 
-[^3] Google LLC, "Open Source Insights - rand," Deps.dev, Jan. 2025. Accessed: Feb. 07, 2025. [Online]. Available: https://deps.dev/cargo/rand
+[^3] Google LLC, "Open Source Insights - rand," Deps.dev, Jan. 2025. Accessed: Feb. 07, 2025. [Online]. Available: <https://deps.dev/cargo/rand>
 
-[^4] Google LLC, "Open Source Insights - qrcode," Deps.dev, Jan. 2025. Accessed: Feb. 07, 2025. [Online]. Available: https://deps.dev/cargo/qrcode
+[^4] Google LLC, "Open Source Insights - qrcode," Deps.dev, Jan. 2025. Accessed: Feb. 07, 2025. [Online]. Available: <https://deps.dev/cargo/qrcode>

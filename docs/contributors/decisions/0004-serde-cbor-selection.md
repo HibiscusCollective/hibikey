@@ -31,6 +31,7 @@ their authenticator protocols [^1].
 ## Decision Outcome
 
 Chosen option: "ciborium", because:
+
 1. Directly implements CTAP2 requirements
 2. Achieves 50-70% space savings vs JSON
 3. Full no_std support without nightly requirement
@@ -49,6 +50,7 @@ Chosen option: "ciborium", because:
 ### Confirmation
 
 Implementation verified through:
+
 1. Security Testing
    * Fuzzing of serialization/deserialization
    * Memory safety analysis
@@ -60,6 +62,7 @@ Implementation verified through:
    * All tests pass on nightly
 
 3. Implementation Example
+
 ```rust
 use ciborium::{cbor, value::Value};
 
@@ -189,26 +192,29 @@ Rust-specific binary format
 ## More Information
 
 ### Security Considerations
+
 * Strict field validation enabled
 * Unknown field rejection
 * Constant-time deserialization
 * Memory safety in no_std
 
 ### Quality Metrics
+
 * Message size: 65% reduction
 * Zero allocations in core path
 * 100% test coverage
 * Fuzzing infrastructure included
 
 ### Review Schedule
+
 * Security audit: Month 1
 * Performance review: Month 2
 * Compatibility testing: Month 3
 
 **References:**
 
-[^1] C. Armstrong, K. Georgantas, F. Kaczmarczyck, N. Satragno, and N. Sung, Client to Authenticator Protocol (CTAP). Beaverton, Oregon, United States of America: FIDO Alliance, 2021. 
-Accessed: Feb. 07, 2025. [Online]. 
-Available: https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html
+[^1] C. Armstrong, K. Georgantas, F. Kaczmarczyck, N. Satragno, and N. Sung, Client to Authenticator Protocol (CTAP). Beaverton, Oregon, United States of America: FIDO Alliance, 2021.
+Accessed: Feb. 07, 2025. [Online].
+Available: <https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-20210615.html>
 
-[^2] Google LLC, “Open Source Insights - Rust, Deps.dev, Jan. 27, 2025. https://deps.dev/cargo/ciborium-io (accessed Feb. 07, 2025).
+[^2] Google LLC, “Open Source Insights - Rust, Deps.dev, Jan. 27, 2025. <https://deps.dev/cargo/ciborium-io> (accessed Feb. 07, 2025).

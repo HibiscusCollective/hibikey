@@ -29,7 +29,6 @@ Copyright (c) David Anson
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/ossf/scorecard-action/blob/main/LICENSE)
 
-
 Copyright 2020 OpenSSF Scorecard Authors
 
 ### Frameworks and libraries

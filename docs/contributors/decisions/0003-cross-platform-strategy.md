@@ -30,6 +30,7 @@ all target platforms.
 ## Decision Outcome
 
 Chosen option: "no_std core with C FFI bindings", because:
+
 1. Achieves smallest possible binary size
 2. Enables maximum code reuse (>90%)
 3. Provides direct C ABI compatibility
@@ -47,6 +48,7 @@ Chosen option: "no_std core with C FFI bindings", because:
 ### Confirmation
 
 Implementation verified through:
+
 1. Security Testing
    * Memory safety analysis with MIRI
    * FFI boundary verification
@@ -58,6 +60,7 @@ Implementation verified through:
    * Zero unsafe blocks in core
 
 3. Platform Support
+
 ```rust
 // Cross-platform core with conditional FFI
 #![cfg_attr(not(feature = "std"), no_std)]
@@ -116,18 +119,21 @@ Web-first portable approach
 ## More Information
 
 ### Security Considerations
+
 * All FFI boundaries thoroughly audited
 * Memory safety verified with MIRI
 * No unsafe code in core logic
 * Constant-time crypto operations
 
 ### Quality Metrics
+
 * Code sharing: >90%
 * Test coverage: >80%
 * Binary size: <20KB
 * Zero unsafe blocks
 
 ### Review Schedule
+
 * Security audit: Month 1
 * Platform testing: Month 2
 * Performance review: Month 3
@@ -137,8 +143,8 @@ Web-first portable approach
 [^1] D. Baghdasaryan, D. Balfanz, B. Hill, J. Hodges, and K. Yang, FIDO UAF Protocol Specification v1.2.
 Beaverton, Oregon, United States of America: FIDO Alliance Inc, 2020. Accessed: Feb. 07, 2025. [Online]. Available: [https://fidoalliance.org/specs/fido-uaf-v1.2-ps-20201020/fido-uaf-protocol-v1.2-ps-20201020.html](https://fidoalliance.org/specs/fido-uaf-v1.2-ps-20201020/fido-uaf-protocol-v1.2-ps-20201020.html)
 
-[^2] Google LLC, “Open Source Insights - Rust, Deps.dev, Jan. 27, 2025. https://deps.dev/cargo/tokio (accessed Feb. 07, 2025).
+[^2] Google LLC, “Open Source Insights - Rust, Deps.dev, Jan. 27, 2025. <https://deps.dev/cargo/tokio> (accessed Feb. 07, 2025).
 
-[^3] The Rust resources team, The Embedded Rust Book. The Rust Foundation, 2025. Accessed: Feb. 07, 2025. [Online]. Available: https://docs.rust-embedded.org/book/
+[^3] The Rust resources team, The Embedded Rust Book. The Rust Foundation, 2025. Accessed: Feb. 07, 2025. [Online]. Available: <https://docs.rust-embedded.org/book/>
 
-[^4] The Rust Project Developers, “Foreign Function Interface,” in The Rustonomicon, The Rust Foundation, 2025. Accessed: Feb. 07, 2025. [Online]. Available: https://doc.rust-lang.org/nomicon/ffi.html
+[^4] The Rust Project Developers, “Foreign Function Interface,” in The Rustonomicon, The Rust Foundation, 2025. Accessed: Feb. 07, 2025. [Online]. Available: <https://doc.rust-lang.org/nomicon/ffi.html>
