@@ -3,7 +3,7 @@
 **Author:** Pierre Fouilloux (@pfouilloux)
 
 ![Accepted](https://img.shields.io/badge/status-accepted-green)
-![Date](https://img.shields.io/badge/Date-07_Feb_2025-lightgrey)
+![Date](https://img.shields.io/badge/Date-07_Feb_2025-lightblue)
 
 ## Context and Problem Statement
 
