@@ -14,7 +14,7 @@
 ### Allow workspace configuration
 !mise.toml
 !.editorconfig
-!.markdownlint.json
+!**/.markdownlint.yml
 
 ### Allow readme and licenses
 !README.md
@@ -23,3 +23,6 @@
 
 !licenses
 !licenses/*.txt
+
+### Allow AI rules
+!.windsurfrules

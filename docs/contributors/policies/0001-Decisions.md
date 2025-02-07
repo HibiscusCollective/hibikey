@@ -1,16 +1,17 @@
 # POL-0001 Decision Making Process
 
-![]
+**Author:** Pierre Fouilloux (@pfouilloux)
+
+![Accepted](https://img.shields.io/badge/status-accepted-green)
+![Date](https://img.shields.io/badge/Date-07_Feb_2025-lightblue)
 
 ## Context and Problem Statement
 
 In an asynchronous work environment with contributors from across the planet, it can be difficult to form a consensus.
-We also run the risk of inadventertently marginalising contributors outside time zones where
-the project is most active.
+We also run the risk of inadventertently marginalising contributors outside time zones where the project is most active.
 
 The aim of this policy is to provide a collaborative, inclusive and transparent process for making decisions.
-We want a diverse community of contributors to feel
-welcome, heard, and safe to voice their opinions and ideas.
+We want a diverse community of contributors to feel welcome, heard, and safe to voice their opinions and ideas.
 
 ## Effective date
 
@@ -34,13 +35,10 @@ Just post something in a discussion, or reach out through discord once we've got
 
 ## Framework
 
-1. All major decisions up for discussion will be publicly accessible and anyone is free to comment on them.
-Excepting when clauses 4, 5 or 8 apply.
-2. The discussion will remain open for a reasonable amount of time to allow all contributors to participate.
-Excepting where clause 8 is invoked.'
+1. All major decisions up for discussion will be publicly accessible and anyone is free to comment on them, excepting when clauses 4, 5 or 8 apply.
+2. The discussion will remain open for a reasonable amount of time to allow all contributors to participate, excepting where clause 8 is invoked.
 3. Once a decision is finalised it will be recorded in a publicly accessible registry in the project.
-Ex: an architecture decision would go in the [ADR registry](/docs/contributors/decisions),
-but a policy decision would go in the [policies registry](/docs/contributors/policies).
+Ex: an architecture decision would go in the [ADR registry](/docs/contributors/decisions), but a policy decision would go in the [policies registry](/docs/contributors/policies).
 4. Discourse and debate is encouraged, but must remain respectful and constructive.
 Access to discussions may be constrained if deemed necessary to keep the discussions on track.
 **I'd rather discussions stay free and open so please keep it civil.**
@@ -51,7 +49,7 @@ The length of the ban will be based on the severity of the offense and the patte
 During this period, it can be challenged, altered or overturned using a streamlined process.
 7. After the probationary period is over a decision can only be overturned by raising another decision proposal for discussion.
 8. In exceptional circumstances, I reserve the right to veto decisions or make decisions unilaterally without consultation.
-Scenarious where I'd invoke this right include but aren't limited to:
+Scenarios where I'd invoke this right include but aren't limited to:
     - Critical and/or time sensitive security incidents
     - If I have reason to believe a person may be in danger.
     - If the decision is time sensitive and critical to the continuation of the project.
@@ -84,8 +82,7 @@ Whatever context we have on the problem and the decision we need to make will be
     - Merging a PR with few comments or approvals must be justified in the merge message.
     - Closing a PR with few comments or many approvals must also be justified in the closing message.
 
-4. **Status: in review**. Once the community is aligning on a single direction,
-a pull request will be raised to the main branch containing a draft decision record in MADR format [1].
+4. **Status: in review**. Once the community is aligning on a single direction, a pull request will be raised to the main branch containing a draft decision record in MADR format [1].
 It will remain open for comment for a reasonable amount of time and I will merge it when it is ready.
 5. **Status: probation**. A decision will be moved to this status once it passes the initial review.
 It will be merged into the decisions log at this time but the branch will remain open until the probation period is over.
@@ -100,26 +97,6 @@ Once the branch is gone, the decision may still be changed or reversed by starti
 
 **Important note:** Any approved decision, policy, process, etc. is open to be challenged by anyone at any time.
 We just start a new decision process about changing or reversing a previous decision.
-
-## Resources
-
-### Status shields
-
-![Backlog](https://img.shields.io/badge/status-backlog-lightgrey)
-
-![Investigating](https://img.shields.io/badge/status-investigating-lightblue)
-
-![Draft](https://img.shields.io/badge/status-draft-beige)
-
-![In review](https://img.shields.io/badge/status-in%20review-red)
-
-![Probation](https://img.shields.io/badge/status-probation-orange)
-
-![Accepted](https://img.shields.io/badge/status-accepted-green)
-
-![Rescinded](https://img.shields.io/badge/status-superceded-purple)
-
-Use the overriden badge if an newer decision overrides or reverses an older one.
 
 ## References
 

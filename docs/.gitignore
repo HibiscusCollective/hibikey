@@ -7,3 +7,4 @@
 
 ## Allow markdown
 !**/*.md
+!**/.markdownlint.yml

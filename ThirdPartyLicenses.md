@@ -57,6 +57,14 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 [http://scripts.sil.org/OFL](http://scripts.sil.org/OFL)
 
+### Other
+
+#### [MADR](licenses/MADR.txt)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/adr/madr/blob/develop/LICENSE.MIT)
+
+Copyright (c) 2017-2022 Oliver Kopp, Olaf Zimmermann
+
 ## Reporting licensing issues
 
 Care is taken to ensure that the licenses of third-party software used by this project respected and
