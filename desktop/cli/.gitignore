@@ -5,6 +5,10 @@
 ## Git config
 !.gitignore
 
+### Allow mise configuration
+!tasks.toml
+!mise.toml
+
 ## Go files
 !go.mod
 !go.sum

@@ -1,4 +1,8 @@
 [tools]
 go = "1.24rc2"
+lefthook = "1.10.10"
 markdownlint-cli2 = "0.17.2"
 trivy = "0.59.0"
+
+[task_config]
+includes = ["desktop/tasks.toml"]
