@@ -25,15 +25,14 @@ pre-commit:
           - name: Go modules
             group:
               parallel: true
+              files: ./.lefthook/unique_directories.sh {staged_files}
               jobs:
                 - name: Vet
                   glob: "**/go.mod"
                   exclude: "desktop/go.mod"
-                  files: ./.lefthook/unique_directories.sh {staged_files}
                   run: ./.lefthook/run_in_dirs.sh "go vet ./..." {files}
                 - name: Tidy
                   glob: "**/go.mod"
-                  files: ./.lefthook/unique_directories.sh {staged_files}
                   run: ./.lefthook/run_in_dirs.sh "go mod tidy" {files}
                   stage_fixed: true
 ## TODO: Add package auditing & fossa flows to the pre-push hook
