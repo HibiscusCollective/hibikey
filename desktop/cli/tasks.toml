@@ -1,0 +1,9 @@
+["go:vet:cli"]
+description = "Run go vet on the cli project"
+dir = "{{cwd}}"
+run = "go vet ./..."
+
+["go:fmt:cli"]
+description = "Run go fmt on the cli project"
+dir = "{{cwd}}"
+run = "go fmt -x -s ./..."

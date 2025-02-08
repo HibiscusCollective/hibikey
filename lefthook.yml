@@ -1,0 +1,39 @@
+assert_lefthook_installed: true
+colors: always
+
+pre-commit:
+  piped: true
+  jobs:
+    - name: Run linters
+      group:
+        parallel: true
+        jobs:
+          - name: Markdown
+            run: markdownlint-cli2 {staged_files} --fix
+            glob: "*.md"
+            stage_fixed: true
+          - name: Go files
+            glob: "*.go"
+            group:
+              parallel: true
+              jobs:
+                - name: Fmt
+                  tags:
+                    - desktop
+                    - go
+                  run: for f in {staged_files}; do go fmt $f; done;
+          - name: Go modules
+            group:
+              parallel: true
+              jobs:
+                - name: Vet
+                  glob: "**/go.mod"
+                  exclude: "desktop/go.mod"
+                  files: ./.lefthook/unique_directories.sh {staged_files}
+                  run: ./.lefthook/run_in_dirs.sh "go vet ./..." {files}
+                - name: Tidy
+                  glob: "**/go.mod"
+                  files: ./.lefthook/unique_directories.sh {staged_files}
+                  run: ./.lefthook/run_in_dirs.sh "go mod tidy" {files}
+                  stage_fixed: true
+## TODO: Add package auditing & fossa flows to the pre-push hook

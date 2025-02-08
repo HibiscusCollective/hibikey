@@ -1,0 +1,15 @@
+[vars]
+go_dirs = "gui cli"
+
+[tasks.lint]
+description = "Run go vet on all subprojects"
+dir = "desktop"
+run = """
+#!usr/bin/env bash
+
+mise run in {{vars.go_dirs}} "go vet ./..."
+"""
+
+[tasks.fmt]
+description = "Run go fmt on all subprojects"
+run = "xargs -d' ' -I{} mise run go:fmt {} <<<'{{vars.go_dirs}}'"

@@ -14,8 +14,12 @@
 ### Allow workspace configuration
 !mise.toml
 !.editorconfig
-!lefthook.yml
 !**/.markdownlint.yml
+
+!lefthook.yml
+!.lefthook
+!.lefthook/*/
+!.lefthook/**/*.sh
 
 ### Allow readme and licenses
 !README.md

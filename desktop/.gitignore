@@ -15,6 +15,9 @@
 ### Allow mise configuration
 !mise.toml
 !tasks.toml
+!.mise-tasks/
+!.mise-tasks/**/
+!.mise-tasks/**/*.sh
 
 ### Allow documentation
 !README.md

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"embed"
 	_ "embed"
 	"log"
 	"time"
@@ -14,8 +13,8 @@ import (
 // made available to the frontend.
 // See https://pkg.go.dev/embed for more information.
 
-//go:embed all:frontend/dist
-var assets embed.FS
+// go:embed all:frontend/dist
+// var assets embed.FS
 
 // main function serves as the application's entry point. It initializes the application, creates a window,
 // and starts a goroutine that emits a time-based event every second. It subsequently runs the application and
@@ -34,7 +33,7 @@ func main() {
 			application.NewService(&GreetService{}),
 		},
 		Assets: application.AssetOptions{
-			Handler: application.AssetFileServerFS(assets),
+			// Handler: application.AssetFileServerFS(assets),
 		},
 		Mac: application.MacOptions{
 			ApplicationShouldTerminateAfterLastWindowClosed: true,

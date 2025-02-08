@@ -1,0 +1,9 @@
+["go:vet:gui"]
+description = "Run go vet on the gui project"
+dir = "{{cwd}}"
+run = "go vet ./..."
+
+["go:fmt:gui"]
+description = "Run go fmt on the gui project"
+dir = "{{cwd}}"
+run = "go fmt -x -s ./..."
